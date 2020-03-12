@@ -58,7 +58,7 @@
     "mem-fs": "^1.1.0",
     "mem-fs-editor": "^2.0.4",
     "minimatch": "^3.0.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.0",
     "path-exists": "^2.0.0",
     "path-is-absolute": "^1.0.0",
     "postcss-pxtorem": "^3.0.0",
@@ -73,7 +73,7 @@
     "unzip": "^0.1.11",
     "uuid": "^2.0.1",
     "verror": "^1.6.0",
-    "vinyl-fs": "^0.3.0",
+    "vinyl-fs": "^3.0.0",
     "which": "^1.2.0"
   }
 }
