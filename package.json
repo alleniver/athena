@@ -4,7 +4,9 @@
   "description": "O2前端流程工具",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -74,6 +76,8 @@
     "uuid": "^2.0.1",
     "verror": "^1.6.0",
     "vinyl-fs": "^0.3.0",
-    "which": "^1.2.0"
-  }
+    "which": "^1.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
